@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo classes</title>
+    <style>
+        .button{
+            height: 20px;
+            width: 70px;
+            border: 1px solid rgb(16, 16, 46);
+            border-radius: 5px;
+            background-color: rgb(239, 134, 21);
+            transition-property: all;
+            transition-duration: 0.1s;
+            transition-timing-function: ease-in-out;
+            transition-delay: 0.1s;
+        }
+        .button:hover{
+            height: 100px;
+            width: 100px;
+            border: 1px solid red;
+        }
+        .button:active{
+            height: 25px;
+            width: 80px;
+            border: 1px solid red;
+            background-color: rgb(242, 134, 134);
+        }
+    </style>
+</head>
+<body>
+    <button class="button">Click Me</button>
+</body>
+</html>

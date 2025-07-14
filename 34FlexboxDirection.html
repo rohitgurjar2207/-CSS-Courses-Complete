@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box Directrion</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box{
+            height: 100px;
+            width: 100px;
+            border: 3px solid black;
+            margin-right: 5px;
+        }
+        #heading{margin-left: 200px;}
+        #container{
+            height: 150px;
+            width: 600px;
+            padding: 10px;
+            margin: 20px;
+            border: 3px solid black;
+            display: flex;
+            flex-direction: row-reverse;
+        }
+        #box1{
+            background-color: brown;
+        }
+        #box2{
+            background-color: rgb(42, 77, 165);
+        }
+        #box3{
+            background-color: rgb(165, 42, 155);
+        }
+        #box4{
+            background-color: rgb(130, 165, 42);
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="box1"class="box">Flex Item 1</div>
+        <div id="box2"class="box">Flex Item 2</div>
+        <div id="box3"class="box">Flex Item 3</div>
+        <div id="box4"class="box">Flex Item 4</div>
+    </div>
+</body>
+</html>
